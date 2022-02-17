@@ -4,6 +4,10 @@ using UnityEngine;
 using UnityEngine.Tilemaps;
 using UnityEngine.SceneManagement;
 
-public class GameManager : Board{
-    
+public class GameManager : MonoBehaviour{
+    private PauseMenu pauseMenu;
+
+    private void Start() {
+        pauseMenu.Resume();
+    }
 }

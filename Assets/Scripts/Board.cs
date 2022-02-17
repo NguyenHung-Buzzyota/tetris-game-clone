@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class Board : MonoBehaviour
 {
     public Tilemap tilemap {get; private set;}
-
+    
     public Piece activePiece {get; private set;}
 
     public TetrominaData[] tetrominoes;
